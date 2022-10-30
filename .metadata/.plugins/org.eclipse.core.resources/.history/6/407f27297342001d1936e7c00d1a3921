@@ -1,0 +1,18 @@
+
+public class Car {
+	private String color;
+	private int EnginePower;
+	private boolean Convertible;
+    private boolean ParkingBrake;
+    
+    public Car(char color, int EnginePower, boolean Convertible, boolean ParkingBrake)
+    {
+     this.color = color;
+     this.EnginePower = EnginePower;
+     this.Convertible = Convertible;
+     this.ParkingBrake = ParkingBrake;
+    }
+    
+    
+    
+}
